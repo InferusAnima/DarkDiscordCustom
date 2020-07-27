@@ -1,7 +1,7 @@
 /**
 
  * @name Dark Discord Custom
- * @version 1.0
+ * @version 1.1
  * @description An actual dark mode for discord, edited by InferusAnima.
  * @source https://raw.githubusercontent.com/InferusAnima/DarkDiscordCustom/master/DarkDiscordCustom.theme.css
  * @website https://github.com/InferusAnima/DarkDiscordCustom
@@ -45,20 +45,59 @@
     --toast-box-shadow: rgba(0, 0, 0, .2) !important;
     --toast-border: var(--background-tertiary) !important;
     --offline-color: rgb(60, 60, 60) !important;
+    --green: #43b581;
+    --greenDark: #359066;
     --yellow: #faa61a;
+    --yellowDark: #dc8b05;
+    --red: #f04747;
+    --redDark: #b63b3b;
+    --purple: #593695;
+    --purpleDark: #432870;
+    --blurple: #7289da;
     --nitro: #ff73fa;
 }
 
 [aria-label=USER_SETTINGS] .side-8zPYf6 .item-PXvHYJ:nth-child(10) {
-  color: var(--nitro);
+    color: var(--nitro);
 }
 [aria-label=USER_SETTINGS] .side-8zPYf6 .item-PXvHYJ:nth-child(10):before {
-  background: var(--nitro);
+    background: var(--nitro);
 }
 [aria-label=USER_SETTINGS] .side-8zPYf6 .item-PXvHYJ:nth-child(11) {
-  color: var(--yellow);
+    color: var(--yellow);
 }
 [aria-label=USER_SETTINGS] .side-8zPYf6 .item-PXvHYJ:nth-child(11):before {
-  
-  background: var(--yellow);
+    background: var(--yellow);
+}
+
+.macButtonClose-MwZ2nf {
+    
+   border-radius: 0 !important;
+   border: none !important;
+    
+}
+
+.macButtonMinimize-3EJ6wo {
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+.macButtonMaximize-2FMHAO {
+    border-radius: 0 !important;
+    border: none !important; 
+}
+
+.macButtonClose-MwZ2nf {
+   border-radius: 0 !important;
+   border: none !important;
+}
+
+.macButtonMinimize-3EJ6wo {
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+.macButtonMaximize-2FMHAO {
+    border-radius: 0 !important;
+    border: none !important;
 }
